@@ -1,7 +1,7 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  env: {
-    API_URL: "https://arabic-warehouses.onrender.com",
-  },
+  reactStrictMode: true,
+  trailingSlash: true,
 };
 
 export default nextConfig;
